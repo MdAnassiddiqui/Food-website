@@ -6,7 +6,7 @@ const RestaurantCard = (props) => {
     //console.log(resData);
 
     return (
-        <div data-testid ="resCard" className=" m-4 p-4 w-[250px] rounded-lg bg-slate-300 hover:bg-slate-500">
+        <div data-testid ="resCard" className=" m-4 p-4 w-52 h-auto rounded-lg bg-gray-100 hover:bg-gray-400">
             <img className='res-logo'
                 alt="res-logo"
                 src={RES_URL + resData?.info?.cloudinaryImageId} />
